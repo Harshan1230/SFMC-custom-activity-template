@@ -4,7 +4,7 @@
     {
         "icon": "images/icon.png",
         "iconSmall": "images/iconSmall.png",
-        "category": "<CATEGORY_OF_APP_BASED_ON_DOCS>"
+        "category": "message"
     },
 
     "type": "REST",
@@ -12,7 +12,7 @@
     {
         "en-US":
         {
-            "name": "<NAME_OF_APP>",
+            "name": "APP 2 SMS",
             "description": "<DESC_OF_APP>",
             "step1Label": "Configure Activity"
         }
@@ -27,7 +27,7 @@
               }
             ],
             "outArguments": [],
-            "url": "<HTTPS_URL_OF_APP>/journeybuilder/execute",
+            "url": "SFMC-custom-activity-template-sms/journeybuilder/execute",
             "verb": "POST",
             "body": "",
             "header": "",
@@ -42,25 +42,25 @@
         "applicationExtensionKey": "<APP EXTENSION KEY>",
         "save":
         {
-            "url": "<HTTPS_URL_OF_APP>/journeybuilder/save",
+            "url": "SFMC-custom-activity-template-sms/journeybuilder/save",
             "verb": "POST",
             "useJwt": true
         },
         "publish":
         {
-            "url": "<HTTPS_URL_OF_APP>/journeybuilder/publish",
+            "url": "SFMC-custom-activity-template-sms/journeybuilder/publish",
             "verb": "POST",
             "useJwt": true
         },
         "stop":
         {
-            "url": "<HTTPS_URL_OF_APP>/journeybuilder/stop",
+            "url": "SFMC-custom-activity-template-sms/journeybuilder/stop",
             "verb": "POST",
             "useJwt": true
         },
         "validate":
         {
-            "url": "<HTTPS_URL_OF_APP>/journeybuilder/validate",
+            "url": "SFMC-custom-activity-template-sms/journeybuilder/validate",
             "verb": "POST",
             "useJwt": true
         }
