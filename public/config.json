@@ -39,7 +39,7 @@
     
     "configurationArguments":
     {
-        "applicationExtensionKey": "<APP EXTENSION KEY>",
+        "applicationExtensionKey": "201954fa-6e3d-4877-9a1f-4be982a75eed",
         "save":
         {
             "url": "SFMC-custom-activity-template-sms/journeybuilder/save",
