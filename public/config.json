@@ -13,7 +13,7 @@
         "en-US":
         {
             "name": "APP 2 SMS",
-            "description": "<DESC_OF_APP>",
+            "description": "Description",
             "step1Label": "Configure Activity"
         }
     },
@@ -27,7 +27,7 @@
               }
             ],
             "outArguments": [],
-            "url": "https://sfmc-custom-activity-template-sms.onrender.com/journeybuilder/execute",
+            "url": "https://sfmc-custom-activity-template.onrender.com/journeybuilder/execute",
             "verb": "POST",
             "body": "",
             "header": "",
@@ -42,25 +42,25 @@
         "applicationExtensionKey": "201954fa-6e3d-4877-9a1f-4be982a75eed",
         "save":
         {
-            "url": "https://sfmc-custom-activity-template-sms.onrender.com/journeybuilder/save",
+            "url": "https://sfmc-custom-activity-template.onrender.com/journeybuilder/save",
             "verb": "POST",
             "useJwt": true
         },
         "publish":
         {
-            "url": "https://sfmc-custom-activity-template-sms.onrender.com/journeybuilder/publish",
+            "url": "https://sfmc-custom-activity-template.onrender.com/journeybuilder/publish",
             "verb": "POST",
             "useJwt": true
         },
         "stop":
         {
-            "url": "https://sfmc-custom-activity-template-sms.onrender.com/journeybuilder/stop",
+            "url": "https://sfmc-custom-activity-template.onrender.com/journeybuilder/stop",
             "verb": "POST",
             "useJwt": true
         },
         "validate":
         {
-            "url": "https://sfmc-custom-activity-template-sms.onrender.com/journeybuilder/validate",
+            "url": "https://sfmc-custom-activity-template.onrender.com/journeybuilder/validate",
             "verb": "POST",
             "useJwt": true
         }
